@@ -19,9 +19,9 @@ export const Ejercicio = ({year}) => {
             {yearNow}
         </strong>
         <p>
-            <button onClick={siguiente}>Siguiente</button>
+        <button type="button" onClick={siguiente} class="btn btn-secondary">Siguiente</button>
             &nbsp;
-            <button onClick={anterior}>Anterior</button>
+        <button type="button" onClick={anterior} class="btn btn-secondary">Anterior</button>
         </p>
     </div>
   )

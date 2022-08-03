@@ -20,7 +20,7 @@ export const MiPrimerEstado = () => {
         <strong>
             {nombre}
         </strong>
-        <button onClick = {cambiarNombre}>Cambiar</button>
+        <button type="button" onClick={cambiarNombre} class="btn btn-secondary">Cambiar</button>
     </div>
   )
 }
